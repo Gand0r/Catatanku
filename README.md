@@ -3,7 +3,7 @@
 > Mungkin semua orang bisa copy dan paste, tapi tidak semua orang bisa menganalisa dan solving problem.
 
 * * *
-Step mengganti Dns dengan menggunakan prompt
+Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
 
 - Hapus DNS
 > wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()
