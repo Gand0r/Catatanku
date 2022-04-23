@@ -3,9 +3,7 @@
 > Mungkin semua orang bisa copy dan paste, tapi tidak semua orang bisa menganalisa dan solving problem.
 
 * * *
-Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
-
-<details><summary>1</summary>
+<details><summary>0000</summary>
 <p>
     
 ### Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
