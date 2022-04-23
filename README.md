@@ -3,6 +3,10 @@
 > Mungkin semua orang bisa copy dan paste, tapi tidak semua orang bisa menganalisa dan solving problem.
 
 * * *
+
+![Back to home](https://gand0r.my.id/)
+
+* * *
 <details><summary>0000</summary>
 <p>
     
