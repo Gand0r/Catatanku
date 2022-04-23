@@ -14,16 +14,10 @@
 <details><summary>Episode 1</summary>
 <p>
    <h1>mengganti Dns dengan menggunakan wmic via command line</h1>
-   <br>
-   - wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()
-   <br>
-   - wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")
-   <br>
-   
+   <br><br>
    <ul>
       <li><data value="1">wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()</data></li>
       <li><data value="2">wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")</data></li>
-      <li><data value="3">Snack Tomato</data></li>
    </ul>
 </p>
 </details>
