@@ -4,9 +4,7 @@
 
 * * *
 
-[Back to home](https://gand0r.my.id/)
-
-[Tentangku](https://gand0r.github.io/)
+[Back to home](https://gand0r.my.id/) | [Tentangku](https://gand0r.github.io/)
 
 * * *
 <details><summary>0000</summary>
