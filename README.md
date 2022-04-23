@@ -11,13 +11,15 @@
 
 * * *
 
-<details><summary>mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)</summary>
+<details><summary>Episode 1</summary>
 <p>
+   <br>
+   mengganti Dns dengan menggunakan wmic via command line
    <br>
    - wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()
    <br>
    - wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")
-   
+   <br>
 </p>
 </details>
 
