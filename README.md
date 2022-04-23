@@ -9,12 +9,13 @@
 * * *
 <details><summary>0000</summary>
 <p>
-    
-### Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
+   ```` mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
     
     ```wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()```
     
     ```wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")```
+    
+    ````
     
 </p>
 </details>
