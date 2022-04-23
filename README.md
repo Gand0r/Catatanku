@@ -20,6 +20,12 @@
    <br>
    - wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")
    <br>
+   
+   <ul>
+      <li><data value="1">wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()</data></li>
+      <li><data value="2">wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")</data></li>
+      <li><data value="3">Snack Tomato</data></li>
+   </ul>
 </p>
 </details>
 
