@@ -1,10 +1,13 @@
-### Catatanku
 * * *
+[Back to home](https://gand0r.my.id/) | [Tentangku](https://gand0r.github.io/)
+* * *
+
+### Catatanku
+
+* * *
+
 > Mungkin semua orang bisa copy dan paste, tapi tidak semua orang bisa menganalisa dan solving problem.
 
-* * *
-
-[Back to home](https://gand0r.my.id/) | [Tentangku](https://gand0r.github.io/)
 
 * * *
 
