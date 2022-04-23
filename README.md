@@ -4,4 +4,15 @@
 
 * * *
 Cara mengganti Dns dengan menggunakan prompt
-> blblanla
+>#!/bin/bash
+# Program name: pingall.sh
+date
+cat /home/edp/myip.txt |  while read output
+do
+    ping -c 1 "$output" > /dev/null
+    if [ $? -eq 0 ]; then
+    echo "koneksi $output is up" 
+    else
+    echo "koneksi $output is down"
+    fi
+done
