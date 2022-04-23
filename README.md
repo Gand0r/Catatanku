@@ -4,7 +4,7 @@
 
 * * *
 
-![Back to home](https://gand0r.my.id/)
+[Back to home](https://gand0r.my.id/)
 
 * * *
 <details><summary>0000</summary>
