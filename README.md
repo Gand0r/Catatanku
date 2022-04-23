@@ -13,8 +13,7 @@
 
 <details><summary>Episode 1</summary>
 <p>
-   <br>
-   mengganti Dns dengan menggunakan wmic via command line
+   <h1>mengganti Dns dengan menggunakan wmic via command line</h1>
    <br>
    - wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()
    <br>
