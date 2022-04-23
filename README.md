@@ -12,9 +12,11 @@ Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
 
 <details><summary>1</summary>
 <p>
-#### Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
     
-    ```wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()
-    wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")```
+### Step mengganti Dns dengan menggunakan wmic (sudah di coba di windows 7 sp1)
+    
+    ```- wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()``` 
+    ```-wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")```
+    
 </p>
 </details>
