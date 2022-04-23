@@ -25,6 +25,6 @@
 
 <details><summary>Episode 2</summary>
 <p>
-   
+   :D
 </p>
 </details>
