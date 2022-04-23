@@ -4,8 +4,9 @@
 
 * * *
 Cara mengganti Dns dengan menggunakan prompt
-Hapus Dns
+
+1. Hapus DNS
 > wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()
-Menambah DNS
+2. Menambah DNS
 > wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")
 
