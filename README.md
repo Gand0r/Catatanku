@@ -21,28 +21,25 @@
 * * *
 
 <details><summary>Install Nodejs dari Binary di Ubuntu 20.04</summary>
-<p><br>
-   Cara menginstall nodejs di ubuntu 20.04 versi Node 18.x
+<p>
    <li>curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - </li>
    <li>sudo apt-get install -y nodejs </li>
    <br>
-   Cara menginstall nodejs di ubuntu 20.04 versi Node 17.x
+   Node 17.x
    <li>curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash - </li>
    <li>sudo apt-get install -y nodejs </li>
    <br>
-   Cara menginstall nodejs di ubuntu 20.04 versi Node 16.x
+   Node 16.x
    <li>curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - </li>
    <li>sudo apt-get install -y nodejs </li>
    <br>
-   Cara menginstall nodejs di ubuntu 20.04 versi LTS
+   versi LTS
    <li>curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - </li>
    <li>sudo apt-get install -y nodejs </li>
    <br>
-   <br>
-   Cara menginstall nodejs di ubuntu 20.04 versi Terbaru
+   versi Terbaru
    <li>curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash - </li>
    <li>sudo apt-get install -y nodejs </li>
-   <br>
 </p>
 </details>
 
