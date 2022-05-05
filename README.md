@@ -11,9 +11,8 @@
 
 * * *
 
-<details><summary>Episode 1</summary>
+<details><summary>Cara Mengganti Dns dengan menggunakan wmic via command line</summary>
 <p><br>
-   Cara Mengganti Dns dengan menggunakan wmic via command line:
    <li><data value="1">wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ()</data></li>
    <li><data value="2">wmic nicconfig where (IPEnabled=TRUE) call SetDNSServerSearchOrder ("8.8.8.8", "8.8.4.4")</data></li>
 </p>
