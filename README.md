@@ -19,6 +19,7 @@
 * * *
 
 <details><summary>Install Nodejs dari Binary di Ubuntu 20.04</summary><br>
+   Node 18.x
    <li>curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - </li>
    <li>sudo apt-get install -y nodejs </li>
    <br>
