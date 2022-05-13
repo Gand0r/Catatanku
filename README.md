@@ -1,5 +1,5 @@
 * * *
-| [Home](https://gand0r.github.io/home/) | [Catatan](https://gand0r.github.io/catatanku) | [Tentang](https://gand0r.github.io/) |
+| [Home](https://gand0r.github.io/home) | [Catatan](https://gand0r.github.io/catatanku) | [Tentang](https://gand0r.github.io/) |
 * * *
 
 ### Catatanku
