@@ -42,4 +42,25 @@
 
 * * *
 
+<details><summary>Setting IP pada Ubuntu Server 22.04</summary><br>
+   <li>ip link</li>
+   <li>cd /etc/netplan</li>
+   <li>sudo nano /etc/netplan/installer-config.yaml</li>
+   <li>```network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp5s0:
+       dhcp4: no
+       addresses:
+         - "192.168.75.172/24"
+       gateway4: "192.168.75.254"
+       nameservers:
+           addresses: [1.1.1.1,8.8.8.8]```</li>
+   <li>sudo netplan apply</li>
+   <li>selesai, setelah itu cek ping ke gateway atau ip Lokal</li>
+</details>
+
+* * *
+
 <a href='https://ko-fi.com/M4M3AGKQC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
