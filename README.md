@@ -46,6 +46,7 @@
    <li>ip link</li>
    <li>cd /etc/netplan</li>
    <li>sudo nano /etc/netplan/installer-config.yaml</li>
+   <li>edit file yaml seperti contoh di bawah ini, untuk addresss dan gateway sesuaikan dengan jaringan anda</li>
    
    ```
    network:
