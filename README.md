@@ -46,7 +46,8 @@
    <li>ip link</li>
    <li>cd /etc/netplan</li>
    <li>sudo nano /etc/netplan/installer-config.yaml</li>
-   <li>```network:
+   <li>
+      `network:
   version: 2
   renderer: networkd
   ethernets:
@@ -56,7 +57,8 @@
          - "192.168.75.172/24"
        gateway4: "192.168.75.254"
        nameservers:
-           addresses: [1.1.1.1,8.8.8.8]```</li>
+           addresses: [192.168.75.250,8.8.8.8]`
+   </li>
    <li>sudo netplan apply</li>
    <li>selesai, setelah itu cek ping ke gateway atau ip Lokal</li>
 </details>
