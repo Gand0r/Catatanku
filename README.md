@@ -69,7 +69,8 @@
 * * *
 
 <details><summary>SETUP WDCP</summary><br>
-   <li>
+
+```
 /interface ethernet
 set [ find default-name=ether1 ] name=eth1-EDC
 set [ find default-name=ether2 ] arp=reply-only
@@ -133,8 +134,7 @@ add action=masquerade chain=srcnat
 ..
 
 console clear-history
-
-   </li>
+```
 </details>
 
 * * *
